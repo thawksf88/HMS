@@ -1,0 +1,446 @@
+/***** House Keeping *****/
+body {
+	font: 22px Tahoma, Lato, Sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+
+/***** Main Navigation ******/
+#navigation-container {
+	background-image: url(images/Backgrounds/stars.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+#navigation {
+	margin: 10px 30px;
+}
+
+#logoimage {
+	width: 60px;
+	height: 60px;
+	border-radius: 12px;
+	margin-top: 7px;
+}
+
+#Company_Name {
+   	position: relative;
+    top: 6px;
+}
+
+#mainNavBar {
+	float: right;
+}
+
+.header-buttons {
+	color: #9d9d9d;
+	margin-top: 12px;
+}
+
+.header-buttons:hover {
+	color: rgb(255,0,0);
+	text-decoration: none;
+}
+
+.fa-phone {
+	color: #9d9d9d;
+}
+
+.fa-phone:hover {
+	color: white;
+}
+
+/***** Media Queries ***/
+/*
+@media only screen and (min-width: 768px) and (max-width: 991px;) {
+
+}
+*/
+
+
+/*@media only screen and (min-width: 1024px) {
+	.profile {
+		max-width: 830px;
+		max-height: 830px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.profile {
+		max-width: 100%;
+		max-height: 105px;
+	}
+}*/
+
+
+@media only screen and (max-width: 768px) {
+
+	.navbar-toggle {
+		position: relative;
+		top: 10px;
+	}
+
+    #logoimage {
+        float: left;
+        position: relative;
+        left: 5px;
+        bottom: 3px;
+    }
+
+    #Company_Name {
+    	position: relative;
+    	top: 20px;
+    }
+
+    h2 {
+    	font-size: 24px; 
+    }
+}
+
+@media only screen and (max-width: 992px) {
+	#the_wells {
+    	margin-top: 30px;
+    }
+
+    #Edgar {
+    	margin: 30px auto 0px auto;
+    }
+
+    #footer-col {
+    	margin: ;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+	#contact_well #phone {
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (min-width : 768px) {
+	#contact_well {
+		height: 338px;
+	}
+
+	#banner_well {
+		height: 338px;
+	}
+
+/*	#banner_well #footer-paragraph {
+		margin-top: 50px;
+	}
+*/	
+}
+
+/*******************/
+
+/********* Company Header *********/
+
+#Company-Home {
+	background-image: url(images/Backgrounds/barkerPassPCT.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+}
+
+#Company-Home-Jumbotron {
+	background-color: rgba(28, 54, 255, 0.4);
+	margin: 50px auto 50px auto;
+	color: #000;
+	border-radius: 12px;
+	text-transform: uppercase;
+}
+
+.partners {
+	width: 130px;
+	height: 45px;
+	margin: 25px;
+	border: 2px solid black;
+	border-radius: 12px;
+}
+
+#facebook {
+	width: 130px;
+	height: 70px;
+	border: 3px solid black;
+	border-radius: 7px;
+	font: bold 18px Tahoma;
+	position: relative;
+	top: 10px;
+	box-shadow: 5px 5px 5px yellow;
+}
+
+/********** Company Body Home ********/
+
+#Company-body-home {
+	background-image: url(images/Backgrounds/washed_wood.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+#body_info {
+	margin: 30px auto 30px auto;
+}
+
+/*
+img#Edgar {
+	width: -webkit-fill-available;
+}
+*/
+
+#Edgar {
+	border: 2px solid black;
+	border-radius: 12px;
+}
+
+#the_wells {
+	border: 2px solid black;
+	border-radius: 12px;
+}
+
+#thirty {
+	position: relative;
+	top: 6px;
+	font-style: italic;
+}
+
+#wellParagraph {
+	text-align: left;
+}
+
+#whatWeDo {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	text-align: left;
+}
+
+/********** Company Body About **********/
+#Company-body-about {
+	background-image: url(images/Backgrounds/teak_tree_forest.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+#row_about_body {
+	margin: 30px auto 30px auto;
+}
+
+.profile {
+	border: 2px solid black;
+	border-radius: 50%;
+	margin: 20px auto 10px auto;
+	width: 550px;
+	height: 550px;
+
+}
+
+#about_well {
+	background-color: rgba(224,224,224,0.9);
+	border-radius: 12px;
+	margin: 30px;
+}
+
+#about_well-1 {
+	background-color: rgba(224,224,224,0.9);
+	border-radius: 12px;
+	margin: 30px;
+}
+
+#about_well-2 {
+	background-color: rgba(224,224,224,0.9);
+	border-radius: 12px;
+	margin: 30px;
+}
+
+#about_well-3 {
+	background-color: rgba(224,224,224,0.9);
+	border-radius: 12px;
+	margin: 30px;
+}
+
+.about_me {
+	text-align: left;
+}
+
+.about_me::first-letter {
+	float: left;
+	display: block;
+	font-size: 1.625em;
+	font-weight: bold;
+	padding: 5px;
+	background-color: black;
+	color: white;
+	font-family: Lato;
+	margin-right: 2px;
+	border-radius: 8px;
+}
+
+/******** Company Body Galley ********/
+#Company-body-gallery {
+	background-color: gray;
+}
+
+.gallery-well {
+	border: 3px solid black;
+	border-radius: 12px;
+}
+
+#my-slider {
+	position: relative;
+	bottom: 15px;
+}
+
+#my-slider1 {
+	position: relative;
+	bottom: 15px;
+}
+
+#my-slider2 {
+	position: relative;
+	bottom: 15px;
+}
+
+#my-slider3 {
+	position: relative;
+	bottom: 15px;
+}
+
+#my-slider4 {
+	position: relative;
+	bottom: 15px;
+}
+
+#car1 {
+	margin: 50px 0px 50px 0px;
+}
+
+#car2 {
+	margin: 50px 0px 50px 0px;
+}
+
+#car3 {
+	margin: 50px 0px 50px 0px;
+}
+
+#car4 {
+	margin: 50px 0px 50px 0px;
+}
+
+#car5 {
+	margin: 50px 0px 50px 0px;	
+}
+
+#gallery-row {
+	margin: 30px 10px 30px 10px;
+}
+
+.carousel {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.carousel-inner > .item > img {
+	border: 3px solid black;
+	border-radius: 12px;
+  width:100%;
+  height:460px;
+}
+
+
+/******* Footer *******/
+#footer_container {
+	background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(gray, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(gray, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(gray, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(gray, black); /* Standard syntax */
+}
+
+.footer_row {
+	margin: 30px auto 30px auto;
+}
+
+#banner_well {
+	border: 2px solid red;
+	border-radius: 12px;
+	background-color: rgba(0,0,0,.4);
+}
+
+#footer_banner {
+	border-radius: 12px;
+	margin: 0px auto 0px auto;
+}
+
+#footer-paragraph {
+	margin: 10px auto 10px auto;
+	text-align: center;
+	color: white;
+	font: bold 18px Tahoma;
+}
+
+#contact_well {
+	border: 2px solid blue;
+	border-radius: 12px;
+	color: #000;
+	font: bold 20px Tahoma, Lato;
+}
+
+#contact_well #phone {
+		margin-top: 20px;
+}
+
+#phone {
+	color: rgb(255,0,0);
+	text-decoration: none;
+}
+
+#phone:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+#phone1 {
+	font: normal 24px Lato;
+}
+
+#copyright {
+	background-color: #000;
+	color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
